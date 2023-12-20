@@ -1,0 +1,67 @@
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+.layout {
+    text-align: center;
+    height: 125vh;  
+    margin-top: 80px;   
+    font-size: 4vb;
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+    background-color: black;
+
+}
+
+header {  
+    background-color: white;  
+    position: fixed;  
+    left: 0;  
+    right: 0;  
+    top: 0;  
+    height: 9vb;  
+    display: flex;  
+    align-items: center;  
+
+    .logoBg { 
+        position: fixed;
+        left: 0;  
+        right: 0;   
+        top: 8vb;  
+		width: 18vb;
+		height: 4vb;
+	}
+
+    .logo { 
+        position: relative;
+        left: 0;  
+        right: 0;  
+        top: 1.5vb;  
+		width: 15vb;
+		height: 15vb;
+	}
+
+    }  
+header * {  
+    display: inline;  
+} 
+header li { 
+    margin: 1vi; 
+}  
+header li a {  
+    color: #FF0035;
+    text-decoration: none;  
+} 
+a:hover {
+    color: #00CAFF; 
+    text-decoration: underline;
+}
