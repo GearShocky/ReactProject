@@ -10,7 +10,7 @@ function Home() {
 		</div>
 
 		<div class="box-transparent-1">
-
+      Apple
 		</div>
     </div>
   );

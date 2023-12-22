@@ -6,17 +6,16 @@
     font-family: 'Roboto',sans-serif;
     font-weight: bold;
     background-color: black;
-
+    
+    .container {
+        width: 200vh;
+        height: 300vh;
+        overflow: hidden;
+        background: url('../media/bg_parallax2.png');
+    }
 }
 
 body {
     margin: 0;
     padding: 0;
-}
-
-.container {
-    width: 200vh;
-    height: 30  0vh;
-    overflow: hidden;
-    background: url('../media/bg_parallax2.png');
 }
