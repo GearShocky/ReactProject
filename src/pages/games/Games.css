@@ -1,0 +1,43 @@
+.App {
+    text-align: center;
+    height: 125vh;  
+    margin-top: 80px;   
+    font-size: 4vb;
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+    background-color: black;
+    
+    .container {
+        width: 200vh;
+        height: 300vh;
+        overflow: hidden;
+        background: url('../../media/bg_parallax2.png');
+    }
+
+    .bigfade {
+		position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        background-color: black;
+	}
+
+    .mwCover { 
+        position: absolute;
+        left: 30vb;  
+        right: 0;  
+        top: 20vb;  
+		width: 30vb;
+		height: 50  vb;
+	}
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: black;
+}

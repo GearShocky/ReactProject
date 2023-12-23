@@ -1,4 +1,5 @@
 import './Home.css';
+import Layout from './layout'
 
 function Home() {
   return (
@@ -15,6 +16,9 @@ function Home() {
 
       <div className="bigfade">
 
+      </div>
+      <div>
+      <Layout />
       </div>
     </div>
     

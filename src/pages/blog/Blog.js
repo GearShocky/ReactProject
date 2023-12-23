@@ -1,7 +1,6 @@
-import './Home.css';
-import Layout from './layout'
+import './Blog.css';
 
-function Home() {
+function Blog() {
   return (
     <div className="App">
 
@@ -10,19 +9,15 @@ function Home() {
       </div>
 
       <div className="box-transparent-1">
-        <p>Apple</p>
+        <p>Blog</p>
       </div>
 
       <div className="bigfade">
 
-      </div>
-
-      <div>
-      <Layout />
       </div>
     </div>
     
   );
 }
 
-export default Home;
+export default Blog;
